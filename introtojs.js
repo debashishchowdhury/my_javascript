@@ -138,4 +138,6 @@ console.log(typeof str);
 //Methods
 console.log('hello'.toUpperCase());
 
+console.log(Number.isInteger(7))
+
 
