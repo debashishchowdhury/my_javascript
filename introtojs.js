@@ -43,10 +43,22 @@ const person = {
 }
 console.log(person);
 
-//Assignment Operators
-let number = 100;
-number*= 10;
-console.log(number);
+//Arithmetic Operators
+let sum = 5 + 5;
+
+let difference = 10 - 5;
+
+let product = 5 * 10;
+
+let quotient = 10 / 5;
+
+let remainder = 10 % 5;
+
+console.log(sum);
+console.log(difference);
+console.log(product);
+console.log(quotient);
+console.log(remainder);
 
 //String Interpolation/Concatenation
 let age = 40;
@@ -88,3 +100,42 @@ comments
 */
 
 //Remainder / Modulo Operator
+
+//Comparison Operators
+let nostring = '10';
+let no2  = 10;
+console.log(nostring == no2);
+console.log(nostring === no2);
+console.log(nostring != no2);
+console.log(nostring !== no2);
+
+//Logical Operators
+
+const topper = true;
+const player = true;
+
+// AND Operator
+let student = topper && player;
+console.log(student);
+
+const attack = true;
+const defence = false;
+
+// OR Operator
+let footballer = attack || false;
+console.log(footballer);
+
+// NOT Operator
+const guy =! student;
+console.log(guy);
+
+
+//Unary Operator or data type
+
+let str = 'ball';
+console.log(typeof str);
+
+//Methods
+console.log('hello'.toUpperCase());
+
+
